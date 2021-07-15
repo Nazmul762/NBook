@@ -521,13 +521,13 @@ Blog Section CSS
     margin-bottom: 20px;
     color: #ff9600;
 }
-.widget-one p{
+.blog-section .widget-one p{
     margin: 0;
     color: #6a6a6a;
     font-weight: 600;
     text-align: justify;
 }
-.widget-two{
+.blog-section .widget-two{
     position: relative;
     background: url(../img/widget-two.png) no-repeat center;
     background-size: cover;
@@ -546,7 +546,7 @@ Blog Section CSS
     background: rgba(0, 150, 255, 0.95);
     z-index: -1;
 }
-.widget-two p{
+.blog-section .widget-two p{
     margin: 0;
     color: #fff;
     text-align: center;
@@ -593,7 +593,7 @@ Blog Section CSS
     padding-top: 20px; 
     margin: 0;
 }
-.three-content p{
+.blog-section .three-content p{
     margin: 0;
     padding: 20px 15px;
     text-align: justify;
@@ -653,7 +653,7 @@ Blog-one Section CSS
     transform: scale(1.02);
     transition: 0.3s ease-in-out;
 }
-.blog-one p{
+.blog-section .blog-one p{
     margin: 0;
     padding: 20px;
     text-align: justify;
@@ -716,8 +716,8 @@ Blog-two Section CSS
     margin-bottom: 49px;
 }
 .blog-two .bloger-image{
-    width: 657px;
-    height: 195px;
+    width: 93%;
+    height: 40%;
     display: block;
     margin: 0 auto;
     transition: 0.3s ease-in-out;
